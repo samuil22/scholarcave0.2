@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>scholarcave</title>
+<link href="style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/slick.css">
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+<style type="text/css">
+
+</style>
+</head>
+<body>
+  <div class="fixed-top">
+<nav class="navbar navbar-default navbar-expand-md navbar-light">
+  <div class="navbar-header d-flex col">
+    <a class="" href="#"><img src="img/main-logo.png" class="img-fluid logo_img"></a>
+    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class=" navbar-toggler ml-auto border-0">
+      <span class="navbar-toggler-icon"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
+  <!-- Collection of nav links, forms, and other content for toggling -->
+  <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start top_nav">
+    <form class="navbar-form form-inline">
+      <div class="input-group search-box">
+        <input type="text" id="search" class="form-control-lg" placeholder="Search...">
+        <span class="input-group-addon"><i class="material-icons">&#xE8B6;</i></span>
+      </div>
+    </form>
+    <ul class="nav navbar-nav navbar-right ml-auto">
+     <li class="nav-item dropdown">
+        <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle user-action"><img src="https://www.tutorialrepublic.com/examples/images/avatar/2.jpg" class="avatar" alt="Avatar"> Paula Wilson <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="#" class="dropdown-item"><i class="fa fa-user"></i> Profile</a></li>
+          <li><a href="#" class="dropdown-item"><i class="fa fa-calendar"></i> Calendar</a></li>
+          <li><a href="#" class="dropdown-item"><i class="fa fa-sliders"></i> Settings</a></li>
+          <li class="divider dropdown-divider"></li>
+          <li><a href="#" class="dropdown-item"><i class="material-icons">&#xE8AC;</i> Logout</a></li>
+        </ul>
+      </li>
+      <li class="nav-item"><a href="#" class="nav-link notifications"  data-toggle="modal" data-target="#myModal"><i class="fa fa-bell-o"></i><span class="badge">1</span></a></li>
+      <li class="nav-item"><a href="#" class="nav-link messages"  data-toggle="modal" data-target="#myModaltwo"><i class="fa fa-envelope-o"></i><span class="badge">10</span></a></li>
+      <li class="nav-item"><a href="#" class="nav-link messages"  data-toggle="modal" data-target="#myModaltwo"><i class="fa fa-envelope-o"></i><span class="badge">10</span></a></li>
+
+      <li class="nav-item"><a href="#" class="nav-link menu" ><i class="fa fa-bars"></i></a></li>
+
+    </ul>
+
+  </div>
+</nav>
+<nav class="navbar navbar-expand-md navbar-light bg-light nav_two">
+  <a class="navbar-brand" href="#"> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="index.html"><i class="fa fa-home"></i>HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="hub.html"><i class="fa fa-book"></i>HUB</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-desktop"></i>BLOG</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-camera"></i>VIDEOS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-file"></i>F2F</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-briefcase"></i>OPPORTUNITY</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+</div>
+
+
+
+  <!-- Modal one-->
+  <div class="modal animated " id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Modal Header</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+          <input type="text">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+   <!-- Modal two-->
+  <div class="modal slide" id="myModaltwo" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+          <input type="text">
+          <input type="text">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+   <!-- Modal three-->
+  <div class="modal slide" id="myModalthree" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <p>3333</p>
+          <input type="text">
+          <input type="text">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/slick.min.js" ></script>
+<script type="text/javascript">
+// slick slider main news main page
+$(document).ready(function(){
+  $('.your-class').slick({
+    slidesToShow: 1,
+     slidesToScroll: 1,
+     autoplay: true,
+     autoplaySpeed: 2000,
+     arrow:true,
+     prevArrow:'.left_arrow',
+     nextArrow:'.right_arrow',
+     dots: false,
+  });
+});
+</script>
+</body>
+</html>
