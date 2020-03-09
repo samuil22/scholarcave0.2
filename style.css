@@ -199,7 +199,12 @@ color: #bfbdbd;
     padding: 10px;
     font-size: 14px;
 }
-
+/* hub page */
+#search_bar_hub{
+  margin-top: 180px;
+  height: 300px;
+  background: #021E3B;
+}
   @media (min-width: 1200px){
     .form-inline .input-group {
       width: 300px;
