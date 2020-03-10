@@ -1,9 +1,12 @@
   body{
-    background: #fff;
+    background: #F8F8F8 !important;
   }
   .p_14{
     font-size: 14px;
     color: #767676;
+  }
+  .width100{
+    width: 100%;
   }
   .bg_active{
     background: #EFEFEF;
@@ -202,8 +205,45 @@ color: #bfbdbd;
 /* hub page */
 #search_bar_hub{
   margin-top: 180px;
-  height: 300px;
+  height: 100%;
   background: #021E3B;
+}
+.search_hub.border-bottom {
+    width: 100%;
+}
+.search_ul{}
+.search_ul li{
+    float: left;
+    color: #fff;
+    padding: 20px;
+}
+.search_ul li a{
+  color: #96A2AE;
+}
+.hub_se_body{
+  background: #fff;
+}
+.star i{
+  font-size: 10px;
+    color: #767676;
+}
+.hub_small_img{
+
+}
+.hub_small_img img {
+    height: 40px;
+    border-radius: 50%;
+}
+.hub_small_img h6 {
+    float: right;
+}
+/* notice page area */
+#num{
+  width: 70px;
+  padding: 4px;
+}
+#footer{
+  background: #1B1C1D;
 }
   @media (min-width: 1200px){
     .form-inline .input-group {
