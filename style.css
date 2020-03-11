@@ -242,6 +242,15 @@ color: #bfbdbd;
   width: 70px;
   padding: 4px;
 }
+/* blog page */
+.blog_icon{
+  font-size: 13px;
+  color: #767676;
+  margin: 5px 15px;
+}
+.btn_poular_tag{
+   background-color: #EFEFEF !important;
+}
 #footer{
   background: #1B1C1D;
 }
