@@ -251,6 +251,28 @@ color: #bfbdbd;
 .btn_poular_tag{
    background-color: #EFEFEF !important;
 }
+/* blog details page */
+.bt_so{
+  color: #fff !important;
+}
+.btnfecebook{
+  background: #3A579A !important;
+}
+.btntwitter{
+  background: #00ABF0 !important;
+}
+.btnpinterest{
+  background: #C92228 !important;
+}
+.btnlinkdin{
+  background: #00669C !important;
+}
+.bt_blog{
+  background: #EFEFEF !important;
+}
+.btn_del_friends{
+  background: #2EA6FF78 !important;
+}
 #footer{
   background: #1B1C1D;
 }
