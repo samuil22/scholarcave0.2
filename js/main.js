@@ -23,6 +23,6 @@ if ($this.hasClass(fadeIn)) {
 
     setTimeout(function () {
         $this.modal('hide');
-    }, 1000); // the default delays from animate.css is 1s
+    }); // the default delays from animate.css is 1s
 }
 });
